@@ -19,6 +19,10 @@
     box-shadow: 10px 10px 70px -10px rgba(0,0,0,0.75);
 }
 
+.flexcolumn, section {
+    flex-direction: column;
+}
+
 body {
     background-color: rgb(174, 92, 182);
     margin-top: 10%;
