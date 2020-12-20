@@ -25,7 +25,7 @@ body {
 }
 
 section {
-    border: 1px solid black;
+    border: 1px solid rgb(214, 132, 207);
     border-radius: 8px;
     min-width: 60%;
     width: 80%;
