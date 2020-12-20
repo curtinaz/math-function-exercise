@@ -4,5 +4,20 @@
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+.flex, section, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 8px;
+    min-width: 60%;
+    width: 80%;
+    padding: 16px 0;
+}
