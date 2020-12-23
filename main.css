@@ -5,7 +5,28 @@
     border: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
+
+/* input configs */
+
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+/* end input configs  */
 
 .flex, section, body {
     display: flex;
@@ -20,6 +41,7 @@
 }
 
 .flexcolumn, section {
+    display: flex;
     flex-direction: column;
 }
 
@@ -41,10 +63,38 @@ section header h1 {
     font-size: 24px;
 }
 
-#points {
+.points {
     margin-top: 10px;
 }
 
-#points input{
-    background-color: rgb(rgba(255, 0, 200, 0.233), green, blue);
+.points input{
+    background-color: rgb(174, 92, 182);
+    width: 40px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(214, 149, 209);
+}
+
+.points input:focus{
+        box-shadow: 0 0 0 0;
+        border-bottom: 2px solid rgb(214, 120, 206);
+        outline: 0;
+        transition: 500ms;
+}
+
+button {
+    padding: 10px 75px;
+    border: 2px solid rgb(220, 144, 250);
+    color: rgb(183, 0, 255);
+    transition: 500ms;
+}
+
+button:hover {
+    border: 2px solid rgb(140, 0, 196);
+    transition: 500ms;
+}
+
+button:focus, textarea:focus, select:focus {
+    background-color: rgb(149, 99, 241);
+    color: white;
+    transition: 500ms;
 }
