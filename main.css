@@ -40,3 +40,11 @@ section header h1 {
     color: white;
     font-size: 24px;
 }
+
+#points {
+    margin-top: 10px;
+}
+
+#points input{
+    background-color: rgb(rgba(255, 0, 200, 0.233), green, blue);
+}
