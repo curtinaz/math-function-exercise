@@ -53,7 +53,21 @@ let funcoes = {
         } else {
             funcoes.defineFunc()
         }
-    }
+    },
+
+    newX(){
+        if( haveFunc == true){
+
+            let Y = document.querySelector('#y').value
+            let X = (Y - b) / a;
+            
+            document.getElementById('newX').innerHTML = `<p> Valor de X: ${X}</p>`;
+
+        } else {
+            window.alert('Você ainda não definiu uma função')
+        }
+    
+    },
 
 }
 
