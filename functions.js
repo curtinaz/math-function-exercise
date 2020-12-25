@@ -1,8 +1,8 @@
 let funcoes = {
 
     
-    a : 0,
-    b : 0,
+    a: 0,
+    b: 0,
     X1: 0,
     Y1: 0,
     X2: 0,
@@ -24,6 +24,8 @@ let funcoes = {
         document.querySelector('#func').innerHTML = `<p>F(x) = ${a}.x + ${b}</p>`;
     
     }
+
+
 
 }
 
