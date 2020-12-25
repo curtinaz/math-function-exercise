@@ -7,8 +7,6 @@ let funcoes = {
     Y1: 0,
     X2: 0,
     Y2: 0,
-
-    func = document.querySelector('#func').innerHTML,
     
     defineFunc(){
     
@@ -23,7 +21,7 @@ let funcoes = {
     
         b = (Y1 * X2) - (Y2 * X1) / (X2 - X1);
     
-        func = `<p>F(x) = ${a}.x + ${b}</p>`;
+        document.querySelector('#func').innerHTML = `<p>F(x) = ${a}.x + ${b}</p>`;
     
     }
 
