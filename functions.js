@@ -58,10 +58,10 @@ let funcoes = {
     newX(){
         if( haveFunc == true){
 
-            let Y = document.querySelector('#y').value
+            let Y = document.querySelector('#y').value;
             let X = (Y - b) / a;
             
-            document.querySelector('#newX').innerHTML = `<p> Valor de X é: ${X}</p>`;
+            document.querySelector('#newX').innerHTML = `Valor de X é: ${X}`;
 
         } else {
             window.alert('Você ainda não definiu uma função')
@@ -72,10 +72,10 @@ let funcoes = {
     newY(){
         if( haveFunc == true){
 
-            let X = document.querySelector('#x').value
+            let X = document.querySelector('#x').value;
             let Y = (a * X) + b;
             
-            document.querySelector('#newY').innerHTML = `<p> Valor de Y é: ${Y}</p>`;
+            document.querySelector('#newY').innerHTML = `Valor de Y é: ${Y}`;
 
         } else {
             window.alert('Você ainda não definiu uma função')
