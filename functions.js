@@ -8,8 +8,8 @@ let funcoes = {
     X2: 0,
     Y2: 0,
 
-    isitvalid(){
-        
+    isitValid(){
+
         X1 = document.querySelector('#x1').value
         Y1 = document.querySelector('#y1').value
     
