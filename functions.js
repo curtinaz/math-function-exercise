@@ -8,7 +8,7 @@ let funcoes = {
     X2: 0,
     Y2: 0,
 
-    func = document.querySelector('#func').innerHTML
+    func = document.querySelector('#func').innerHTML,
     
     defineFunc(){
     
