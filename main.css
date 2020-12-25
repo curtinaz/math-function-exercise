@@ -105,7 +105,11 @@ button:focus, textarea:focus, select:focus {
     transition: 500ms;
 }
 
-
+#funclabel {
+    animation: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 /* animations */
 
