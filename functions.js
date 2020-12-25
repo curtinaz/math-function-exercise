@@ -69,5 +69,19 @@ let funcoes = {
     
     },
 
+    newY(){
+        if( haveFunc == true){
+
+            let X = document.querySelector('#x').value
+            let Y = (a * X) + b;
+            
+            document.getElementById('newY').innerHTML = `<p> Valor de Y: ${Y}</p>`;
+
+        } else {
+            window.alert('Você ainda não definiu uma função')
+        }
+    
+    }
+
 }
 
