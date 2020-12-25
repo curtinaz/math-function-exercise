@@ -44,6 +44,8 @@ let funcoes = {
         }
         else if (Y2.length == 0) {
             window.alert ("Você deve preencher o valor de y2")
+        } else if (X1 == X2) {
+            window.alert ("O x1 não pode ser igual ao x2")
         } else {
             funcoes.defineFunc()
         }
