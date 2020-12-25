@@ -7,6 +7,7 @@ let funcoes = {
     Y1: 0,
     X2: 0,
     Y2: 0,
+    haveFunc: false,
     
     defineFunc(){
     
@@ -24,6 +25,8 @@ let funcoes = {
         document.querySelector('#func').innerHTML = `<p>F(x) = ${a}.x + ${b}</p>`;
         document.querySelector('#funclabel').style = "display:block;"
         document.querySelector('#part2').style = "display:block;"
+
+        haveFunc = true;
     
     },
 
