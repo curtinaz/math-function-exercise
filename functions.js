@@ -23,6 +23,7 @@ let funcoes = {
     
         document.querySelector('#func').innerHTML = `<p>F(x) = ${a}.x + ${b}</p>`;
         document.querySelector('#funclabel').style = "display:block;"
+        document.querySelector('#part2').style = "display:block;"
     
     },
 
