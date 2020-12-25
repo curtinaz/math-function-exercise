@@ -17,9 +17,9 @@ let funcoes = {
         Y2 = document.querySelector('#y2').value
     
     
-        a = (Y2 - Y1) / (X2 - X1);
+        a = (Y2-Y1)/(X2-X1);
     
-        b = (Y1 * X2) - (Y2 * X1) / (X2 - X1);
+        b = ((Y1*X2)-(Y2*X1))/(X2-X1);
     
         document.querySelector('#func').innerHTML = `<p>f(x) = ${a}x + ${b}</p>`;
         document.querySelector('#funclabel').style = "display:block;"
@@ -58,7 +58,7 @@ let funcoes = {
         if( haveFunc == true){
 
             let Y = document.querySelector('#y').value;
-            let X = (Y - b) / a;
+            let X = ((Y-b))/a;
             
             document.querySelector('#newX').innerHTML = `Valor de X é: ${X}`;
 
@@ -72,7 +72,7 @@ let funcoes = {
         if( haveFunc == true){
 
             let X = document.querySelector('#x').value;
-            let Y = (a * X) + b;
+            let Y = ((a*X)) + b;
             
             document.querySelector('#newY').innerHTML = `Valor de Y é: ${Y}`;
 
