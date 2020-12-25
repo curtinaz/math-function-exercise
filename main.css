@@ -112,6 +112,13 @@ button:focus, textarea:focus, select:focus {
     animation-fill-mode: forwards;
 }
 
+#func {
+    opacity: 0%;
+    animation: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 #part2 {
     opacity: 0%;
     animation: fadein;
@@ -124,7 +131,6 @@ button:focus, textarea:focus, select:focus {
 @keyframes fadein {
     from {
         opacity: 0%;
-        display: flex;
     }
     to {
         opacity: 100%;
