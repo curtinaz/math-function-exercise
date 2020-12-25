@@ -126,21 +126,14 @@ button:focus, textarea:focus, select:focus {
     animation-fill-mode: forwards;
 }
 
-.btnNew {
+.btnNew, .btnNew:focus, .btnNew:hover {
     padding: 5px 5px;
     color: rgb(183, 0, 255);
+    border: none;
+    background-color: none;
     transition: 500ms;
     text-align: center;
-}
-
-.btnNew:hover {
-    transition: 500ms;
-}
-
-.btnNew:focus{
-    background-color: none;
-    color: white;
-    transition: 500ms;
+    border-radius: 100%;
 }
 
 /* animations */
