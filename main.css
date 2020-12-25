@@ -127,7 +127,7 @@ button:focus, textarea:focus, select:focus {
 }
 
 .btnNew, .btnNew:focus, .btnNew:hover {
-    padding: 5px 5px;
+    padding: 4px 8px;
     color: rgb(183, 0, 255);
     border: none;
     background-color: none;
