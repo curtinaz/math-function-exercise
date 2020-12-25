@@ -1,6 +1,5 @@
 let funcoes = {
 
-    
     a: 0,
     b: 0,
     X1: 0,
