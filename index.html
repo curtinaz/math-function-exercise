@@ -49,21 +49,21 @@
 
             <h1 style="text-align: center;">Descubra outros Pontos</h1>
 
-            <div class="points">
+            <div style="text-align: center;" class="points">
                 <label for="x">Digite o valor de X:</label>
                 <input type="number" name="x" id="x">
-                <button class="btnNew" onClick="funcoes.isitValid()">></button>
+                <button class="btnNew" onClick="funcoes.newX()">></button>
+                <p style="margin-top: 3px;" id="newX"></p>
             </div>
 
-            <p id="newX"></p>
-
-            <div class="points">
+            <div style="text-align: center;" class="points">
                 <label for="y">Digite o valor de Y:</label>
                 <input type="number" name="y" id="y">
-                <button class="btnNew" onClick="funcoes.isitValid()">></button>
+                <button class="btnNew" onClick="funcoes.newY()">></button>
+                <p style="margin-top: 3px;" id="newY"></p>
             </div>
 
-            <p id="newY"></p>
+
 
         </div>
         
@@ -72,6 +72,8 @@
         <p style="text-align: center; margin: 10px; font-size: small; width: 80%;">As fórmulas utilizadas aqui, foram retiradas do site: <a href="https://brasilescola.uol.com.br/matematica/determinando-uma-funcao-afim-pelo-valor-dois-pontos.htm">brasil escola</a></p>
 
     </section>
+
+    <div class="spacer"></div>
 
     <script src="./functions.js"></script>
 </body>

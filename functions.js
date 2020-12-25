@@ -61,7 +61,7 @@ let funcoes = {
             let Y = document.querySelector('#y').value
             let X = (Y - b) / a;
             
-            document.getElementById('newX').innerHTML = `<p> Valor de X: ${X}</p>`;
+            document.querySelector('#newX').innerHTML = `<p> Valor de X é: ${X}</p>`;
 
         } else {
             window.alert('Você ainda não definiu uma função')
@@ -75,7 +75,7 @@ let funcoes = {
             let X = document.querySelector('#x').value
             let Y = (a * X) + b;
             
-            document.getElementById('newY').innerHTML = `<p> Valor de Y: ${Y}</p>`;
+            document.querySelector('#newY').innerHTML = `<p> Valor de Y é: ${Y}</p>`;
 
         } else {
             window.alert('Você ainda não definiu uma função')
