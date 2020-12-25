@@ -59,7 +59,7 @@ let funcoes = {
         if( haveFunc == true){
 
             let Y = document.querySelector('#y').value
-            let X = (Y - b) / a;
+            let X = (Y - this.b) / this.a;
             
             document.querySelector('#newX').innerHTML = `<p> Valor de X é: ${X}</p>`;
 
