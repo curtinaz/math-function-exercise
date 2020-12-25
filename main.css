@@ -111,6 +111,13 @@ button:focus, textarea:focus, select:focus {
     animation-fill-mode: forwards;
 }
 
+#part2 {
+    animation: fadein;
+    animation-delay: 500ms;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 /* animations */
 
 @keyframes fadein {
