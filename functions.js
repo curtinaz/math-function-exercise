@@ -9,6 +9,7 @@ let funcoes = {
     Y2: 0,
 
     isitvalid(){
+        
         X1 = document.querySelector('#x1').value
         Y1 = document.querySelector('#y1').value
     
@@ -25,6 +26,8 @@ let funcoes = {
         }
         else if (Y2.length == 0) {
             window.alert ("Você deve preencher o valor de y2")
+        } else {
+            defineFunc()
         }
     },
     
