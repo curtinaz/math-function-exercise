@@ -21,7 +21,7 @@ let funcoes = {
     
         b = (Y1 * X2) - (Y2 * X1) / (X2 - X1);
     
-        document.querySelector('#func').innerHTML = `<p>F(x) = ${a}.x + ${b}</p>`;
+        document.querySelector('#func').innerHTML = `<p>f(x) = ${a}x + ${b}</p>`;
         document.querySelector('#funclabel').style = "display:block;"
         document.querySelector('#part2').style = "display:block;"
 
